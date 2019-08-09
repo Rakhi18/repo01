@@ -1,0 +1,28 @@
+    1  mkdir my_gits_projects
+    2  ls
+    3  cd  my_gits_projects
+    4  ls
+    5  git clone https://github.com/amitvashist7/devops-niit-20190808.git
+    6  ls
+    7  rm -rf devops-niit-20190808
+    8  ls
+    9  git clone https://github.com/Rakhi18/repo01.git
+   10  ls
+   11  cd repo01
+   12  ls
+   13  cat README.md
+   14  vi README.md
+   15  echo "Hello World" > Hello_World.txt
+   16  ls -ltr
+   17  git add .
+   18  git status
+   19  git log
+   20  git branch
+   21  git commit -m "Added Hello World"
+   22  git config --global --edit
+   23  vi /root/.gitconfig
+   24  git log
+   25  git push
+   26  ls
+   27  history
+   28  history > History.txt
