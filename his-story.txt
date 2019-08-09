@@ -1,0 +1,59 @@
+    1  mkdir my_gits_projects
+    2  ls
+    3  cd  my_gits_projects
+    4  ls
+    5  git clone https://github.com/amitvashist7/devops-niit-20190808.git
+    6  ls
+    7  rm -rf devops-niit-20190808
+    8  ls
+    9  git clone https://github.com/Rakhi18/repo01.git
+   10  ls
+   11  cd repo01
+   12  ls
+   13  cat README.md
+   14  vi README.md
+   15  echo "Hello World" > Hello_World.txt
+   16  ls -ltr
+   17  git add .
+   18  git status
+   19  git log
+   20  git branch
+   21  git commit -m "Added Hello World"
+   22  git config --global --edit
+   23  vi /root/.gitconfig
+   24  git log
+   25  git push
+   26  ls
+   27  history
+   28  history > History.txt
+   29  git add . ; git commit -m "history created" ; git push origin master
+   30  ls
+   31  git log
+   32  ls
+   33  echo "Rakhi" | git hash-object --stdin -w
+   34  ls -a
+   35  cd .git/
+   36  ls
+   37  ls -ltr
+   38  cd objects/
+   39  ls
+   40  cd 3d/
+   41  ls
+   42  cd ..
+   43  git cat-file 3dabeed09e1ba2bbdca01e6172ad97f66c642158
+   44  git cat-file 3dabeed09e1ba2bbdca01e6172ad97f66c642158 -t
+   45  git cat-file 3dabeed09e1ba2bbdca01e6172ad97f66c642158 -p
+   46  cd ..
+   47  ls
+   48  cd ..
+   49  ls
+   50  git log
+   51  cd .git/
+   52  ls
+   53  file HEAD
+   54  cat HEAD
+   55  cat refs/heads/master
+   56  git log
+   57  cd ..
+   58  ls
+   59  history > his-story.txt
